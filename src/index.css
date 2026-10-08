@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+
+/* ── Dark background ── */
+.nexora-background {
+  background:
+    radial-gradient(
+      ellipse 75% 60% at 50% 40%,
+      rgba(139, 92, 246, 0.45) 0%,
+      rgba(99,  82, 220, 0.28) 35%,
+      rgba(50,  40, 130, 0.14) 60%,
+      transparent 85%
+    ),
+    #09090b;
+}
+
+/* ── Hide scrollbar ── */
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
